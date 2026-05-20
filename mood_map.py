@@ -1,0 +1,98 @@
+MOOD_MAP = {
+    "happy": {
+        "emoji": "Happy",
+        "color": "#f59e0b",
+        "description": "Upbeat and joyful tracks to keep the good vibes going",
+        "params": {
+            "seed_genres": "pop,happy",
+            "target_valence": 0.85,
+            "target_energy": 0.75,
+            "target_tempo": 120,
+            "limit": 10,
+        },
+    },
+    "sad": {
+        "emoji": "Sad",
+        "color": "#6366f1",
+        "description": "Soulful melodies for when you need to feel the feelings",
+        "params": {
+            "seed_genres": "sad,acoustic",
+            "target_valence": 0.2,
+            "target_energy": 0.3,
+            "target_tempo": 70,
+            "limit": 10,
+        },
+    },
+    "calm": {
+        "emoji": "Calm",
+        "color": "#10b981",
+        "description": "Peaceful and serene music to soothe your mind",
+        "params": {
+            "seed_genres": "ambient,chill",
+            "target_valence": 0.55,
+            "target_energy": 0.25,
+            "target_tempo": 80,
+            "limit": 10,
+        },
+    },
+    "energetic": {
+        "emoji": "Energetic",
+        "color": "#ef4444",
+        "description": "High-energy tracks to fuel your workout or hustle",
+        "params": {
+            "seed_genres": "work-out,electronic",
+            "target_valence": 0.75,
+            "target_energy": 0.95,
+            "target_tempo": 140,
+            "limit": 10,
+        },
+    },
+    "angry": {
+        "emoji": "Angry",
+        "color": "#dc2626",
+        "description": "Intense tracks to channel that fire inside you",
+        "params": {
+            "seed_genres": "metal,rock",
+            "target_valence": 0.2,
+            "target_energy": 0.9,
+            "target_tempo": 150,
+            "limit": 10,
+        },
+    },
+    "romantic": {
+        "emoji": "Romantic",
+        "color": "#ec4899",
+        "description": "Sweet love songs for tender moments",
+        "params": {
+            "seed_genres": "romance,r-n-b",
+            "target_valence": 0.7,
+            "target_energy": 0.45,
+            "target_tempo": 90,
+            "limit": 10,
+        },
+    },
+    "focused": {
+        "emoji": "Focused",
+        "color": "#3b82f6",
+        "description": "Deep focus music to boost your productivity",
+        "params": {
+            "seed_genres": "study,classical",
+            "target_valence": 0.5,
+            "target_energy": 0.4,
+            "target_tempo": 100,
+            "limit": 10,
+        },
+    },
+    "sleepy": {
+        "emoji": "Sleepy",
+        "color": "#8b5cf6",
+        "description": "Soft dreamy tunes to drift you off to sleep",
+        "params": {
+            "seed_genres": "sleep,piano",
+            "target_valence": 0.4,
+            "target_energy": 0.15,
+            "target_tempo": 60,
+            "limit": 10,
+        },
+    },
+}
